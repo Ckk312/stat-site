@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+
+    &.vert {
+        display: flex;
+        flex-direction: column;
+
+        &.c-horiz {
+            align-items: center;
+        }
+
+        &.c-vert {
+            justify-content: center;
+        }
+    }
+
+    &:not(.vertical), .horiz {
+        &.c-horiz {
+            justify-content: center;
+        }
+
+        &.c-vert {
+            align-items: center;
+        }
+    }
+}
