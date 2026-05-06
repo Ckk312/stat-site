@@ -1,8 +1,10 @@
+import '../Styles/formatting.scss'
+
 function Participants() {
     return (
         <div>
             <h4>Podium</h4>
-            <table>
+            <table className="layout horiz c-horiz">
                 <thead>
                     <tr>
                         <th>Place</th>

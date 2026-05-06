@@ -1,26 +1,34 @@
+import '../Styles/formatting.scss'
+import './styles/matchinfo.scss'
+
 function MatchInfo() {
     return (
         <div>
-            <div>
-                <img src="" />
-                <a href="" >Tournament Name</a>
-                <p>&gt Stage: Round</p>
-                <div>
-                    <p>Date</p>
-                    <p>Time</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" />
-                    <h3>Team Name</h3>
-                    <p>0</p>
+            <div id="match-info-box">
+                <div id="match-info-tags" className="layout horiz">
+                    <div className="layout horiz">
+                        <img src="" />
+                        <a href="" >Tournament Name</a>
+                        <p> {">"} Stage: Round</p>
+                    </div>
+                    <div>
+                        <p>Date</p>
+                        <p>Time</p>
+                    </div>
                 </div>
                 <h2>Status</h2>
-                <div>
-                    <img src="" />
-                    <h3>Team Name</h3>
-                    <p>0</p>
+                <div className="layout horiz c-horiz">
+                    <div className="team-info">
+                        <img src="" />
+                        <h3>Team Name</h3>
+                        <h2>0</h2>
+                    </div>
+                    <h1 className="layout horiz c-vert">VS</h1>
+                    <div className="team-info">
+                        <img src="" />
+                        <h3>Team Name</h3>
+                        <h2>0</h2>  
+                    </div>
                 </div>
             </div>
         </div>

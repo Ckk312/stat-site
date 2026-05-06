@@ -1,14 +1,19 @@
+import '../Styles/formatting.scss'
+import './topbar.scss'
+
 function TopBar() {
     return (
-        <div>
-            <div>
+        <div id="top-bar-box">
+            <div id="top-bar-content" className="layout horiz">
                 <a href="">
                     <img src=""/>
                 </a>
-                <h3>Matches</h3>
-                <h3>Events</h3>
-                <h3>Spoilers Toggle</h3>
-                <h3>Log In</h3>
+                <div className="layout horiz">
+                    <h4>Matches</h4>
+                    <h4>Events</h4>
+                    <h4>Spoilers Toggle</h4>
+                    <h4>Log In</h4>
+                </div>
             </div>
         </div>
     )

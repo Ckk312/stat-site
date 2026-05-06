@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Default React Creation
+.src/App.tsx
+.src/App.css
+.src/index.css
+.src/main.tsx

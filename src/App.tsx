@@ -120,12 +120,14 @@ function App() {
 
 */
 
-import Match from './Pages/Match/Match.tsx'
+import TopBar from './Pages/Components/TopBar.tsx'
+import Event from './Pages/Event/Event.tsx'
 
 function App() {
   return (
     <div>
-      <Match />
+      <TopBar />
+      <Event />
     </div>
   );
 }

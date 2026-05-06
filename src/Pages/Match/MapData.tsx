@@ -1,11 +1,13 @@
+import '../Styles/formatting.scss'
+import './styles/mapdata.scss'
+
 function MapData() {
     return (
         <div className="layout vert c-vert">
-            <h3>Score</h3>
             <div className="layout horiz c-vert">
                 <h1>0</h1>
                 <p>Alpha Team</p>
-                <div className="layout vert c-horiz">
+                <div id="mapinfo" className="layout vert c-horiz">
                     <h3>Map Name</h3>
                     <p>00:00</p>
                 </div>
