@@ -1,7 +1,6 @@
-import MapData from './MapData.tsx'
-import MatchInfo from './MatchInfo.tsx'
-import MatchTable from './MatchTable.tsx'
-import '../Styles/formatting.scss'
+import MapData from '../../../components/match/MapData'
+import MatchInfo from '../../../components/match/MatchInfo'
+import MatchTable from '../../../components/match/MatchTable'
 
 function Match() {
     return (

@@ -1,6 +1,3 @@
-import '../Styles/formatting.scss'
-import './styles/mapdata.scss'
-
 function MapData() {
     return (
         <div className="layout vert c-vert">

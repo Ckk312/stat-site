@@ -1,5 +1,3 @@
-import '../Styles/formatting.scss'
-
 function Participants() {
     return (
         <div>

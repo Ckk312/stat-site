@@ -1,6 +1,3 @@
-import '../Styles/formatting.scss'
-import './styles/matchinfo.scss'
-
 function MatchInfo() {
     return (
         <div>

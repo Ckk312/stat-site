@@ -1,11 +1,8 @@
-import '../Styles/formatting.scss'
-import './styles/event-info.scss'
-
 function EventInfo() {
     return (
         <div id="event-info-box">
             <div>
-                <img src="" />
+                <img src="null" />
                 <h3>Event Name</h3>
             </div>
             <div id="event-info">
