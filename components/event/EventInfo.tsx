@@ -1,30 +1,27 @@
+// Name
+// Logo
+// Banner
+// Start Date
+// End Date
+// Prize Pool
+// Location
+// IsFinished
+
+import styles from "./EventInfo.module.css"
+import Image from "next/image"
+
 function EventInfo() {
     return (
-        <div id="event-info-box">
-            <div>
-                <img src="null" />
-                <h3>Event Name</h3>
-            </div>
-            <div id="event-info">
-                <div>
-                    <p>Date</p>
-                    <h4>TBD</h4>
-                </div>
-                <div>
-                    <p>Location</p>
-                    <h4>TBD</h4>
-                </div>
-                <div>
-                    <p>Prize</p>
-                    <h4>TBD</h4>
-                </div>
-                <div>
-                    <p>Teams</p>
-                    <h4>TBD</h4>
-                </div>
+        <div className={styles.eventInfo}>
+            <Image
+                src=""
+                alt=""
+            />
+            <div className={styles.eventInfoData}>
+                <h2></h2>
             </div>
         </div>
-    );
+    )
 }
 
 export default EventInfo;

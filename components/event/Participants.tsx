@@ -1,3 +1,6 @@
+// Teams
+// Placements
+
 function Participants() {
     return (
         <div>

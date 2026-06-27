@@ -1,4 +1,8 @@
-function EventMatchLists() {
+// Bracket Stages
+// Bracket Link
+// Sets
+
+function EventBracket() {
     return (
         <div>
             <div>
@@ -17,4 +21,4 @@ function EventMatchLists() {
     )
 }
 
-export default EventMatchLists;
+export default EventBracket;
