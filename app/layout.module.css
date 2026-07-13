@@ -1,0 +1,11 @@
+.nav {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
