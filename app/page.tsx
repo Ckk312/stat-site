@@ -4,6 +4,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <Link href="/events">Events</Link>
+    <div>
+      hi this is a home page
+    </div>
   );
 }

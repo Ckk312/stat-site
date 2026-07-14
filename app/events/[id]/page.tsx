@@ -1,5 +1,5 @@
 import EventInfo from "../../../components/event/EventInfo"
-import EventMatchLists from "../../../components/event/EventMatchLists"
+import EventMatchLists from "../../../components/event/EventBracket"
 import Participants from "../../../components/event/Participants"
 
 function Event() {
