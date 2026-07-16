@@ -20,7 +20,7 @@ function TopBar() {
     return (
       <header className={styles.header}>
         <nav className={styles.nav}>
-          <Link className={styles.logo} href="">
+          <Link className={styles.logo} href="/">
               <Image
                 width="50"
                 height="50"

@@ -1,0 +1,25 @@
+.eventsLayout {
+    padding: 1rem;
+    display: flex;
+    gap: 8px;
+    background-color: var(--dark-teal);
+}
+
+.eventsButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.eventsList {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.eventCard {
+    width: 100%;
+    height: 5vh;
+    background-color: var(--black);
+}
